@@ -6,7 +6,7 @@ class EmailService {
   constructor() {
     this.client = new Client({
       user: 'postgres',
-      password: 'Aryankhan@2004',
+      password: '',
       host: 'localhost',
       port: 5432,
       database: 'freelance_ms',
@@ -16,7 +16,7 @@ class EmailService {
       service: 'gmail',
       auth: {
         user: "goku.mui.kaioken@gmail.com",
-        pass: "htkk nexd twsl mdgz",
+        pass: "",
       },
     });
   }
